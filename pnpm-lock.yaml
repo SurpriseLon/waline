@@ -39,7 +39,7 @@ importers:
       stylelint-order: 5.0.0
       typescript: 4.7.4
       vercel: 27.2.0
-      vite: 3.0.2
+      vite: 3.0.3
       vitest: 0.18.1
     devDependencies:
       '@babel/core': 7.18.9
@@ -74,7 +74,7 @@ importers:
       stylelint-order: 5.0.0_stylelint@14.9.1
       typescript: 4.7.4
       vercel: 27.2.0
-      vite: 3.0.2_sass@1.53.0
+      vite: 3.0.3_sass@1.53.0
       vitest: 0.18.1_c8@7.12.0+sass@1.53.0
 
   docs:
@@ -188,7 +188,7 @@ importers:
       rollup-plugin-terser: 7.0.2
       rollup-plugin-ts: 3.0.2
       typescript: 4.7.4
-      vite: 3.0.2
+      vite: 3.0.3
       vue: ^3.2.37
     dependencies:
       '@vueuse/core': 8.9.4_vue@3.2.37
@@ -205,14 +205,14 @@ importers:
       '@types/autosize': 4.0.1
       '@types/marked': 4.0.3
       '@types/node': 18.0.6
-      '@vitejs/plugin-vue': 3.0.1_vite@3.0.2+vue@3.2.37
+      '@vitejs/plugin-vue': 3.0.1_vite@3.0.3+vue@3.2.37
       rimraf: 3.0.2
       rollup: 2.77.0
       rollup-plugin-dts: 4.2.2_55kiftncucr43pz4hskma6yi2q
       rollup-plugin-terser: 7.0.2_rollup@2.77.0
       rollup-plugin-ts: 3.0.2_lni3wre4qwdlguiujwqmvt73km
       typescript: 4.7.4
-      vite: 3.0.2
+      vite: 3.0.3
 
   packages/cloudbase:
     specifiers:
@@ -3211,14 +3211,14 @@ packages:
       vue: 3.2.37
     dev: true
 
-  /@vitejs/plugin-vue/3.0.1_vite@3.0.2+vue@3.2.37:
+  /@vitejs/plugin-vue/3.0.1_vite@3.0.3+vue@3.2.37:
     resolution: {integrity: sha512-Ll9JgxG7ONIz/XZv3dssfoMUDu9qAnlJ+km+pBA0teYSXzwPCIzS/e1bmwNYl5dcQGs677D21amgfYAnzMl17A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.0.2
+      vite: 3.0.3
       vue: 3.2.37
     dev: true
 
@@ -13534,8 +13534,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/3.0.2:
-    resolution: {integrity: sha512-TAqydxW/w0U5AoL5AsD9DApTvGb2iNbGs3sN4u2VdT1GFkQVUfgUldt+t08TZgi23uIauh1TUOQJALduo9GXqw==}
+  /vite/3.0.3:
+    resolution: {integrity: sha512-sDIpIcl3mv1NUaSzZwiXGEy1ZoWwwC2vkxUHY6yiDacR6zf//ZFuBJrozO62gedpE43pmxnLATNR5IYUdAEkMQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -13561,8 +13561,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/3.0.2_sass@1.53.0:
-    resolution: {integrity: sha512-TAqydxW/w0U5AoL5AsD9DApTvGb2iNbGs3sN4u2VdT1GFkQVUfgUldt+t08TZgi23uIauh1TUOQJALduo9GXqw==}
+  /vite/3.0.3_sass@1.53.0:
+    resolution: {integrity: sha512-sDIpIcl3mv1NUaSzZwiXGEy1ZoWwwC2vkxUHY6yiDacR6zf//ZFuBJrozO62gedpE43pmxnLATNR5IYUdAEkMQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -13620,7 +13620,7 @@ packages:
       local-pkg: 0.4.2
       tinypool: 0.2.4
       tinyspy: 1.0.0
-      vite: 3.0.2_sass@1.53.0
+      vite: 3.0.3_sass@1.53.0
     transitivePeerDependencies:
       - less
       - sass
